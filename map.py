@@ -37,7 +37,7 @@ df.dropna()
 df = df.reset_index(drop=True)
 print(df.nunique())
 
-# Remove the most extreme 1% prices, (medium.com)
+# Remove the most extreme 1% data, (medium.com)
 # the most extreme .1% latitudes, &
 # the most extreme .1% longitudes
 df = df[(df['Latitude'] >= np.percentile(df['Latitude'], 0.05)) & 
