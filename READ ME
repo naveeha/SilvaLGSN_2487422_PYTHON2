@@ -1,0 +1,12 @@
+READ ME
+
+
+How to Setup Virtual Environment.
+
+Step 1: python -m venv env
+Step 2: source env/bin/activate
+Step 3: pip install -r requirements.txt
+
+
+Note: If your OS do not have 'venv' module then simply install it by using
+pip install venv
