@@ -5,8 +5,13 @@ How to Setup Virtual Environment.
 
 Step 1: python -m venv env
 Step 2: .\env\bin\activate
-Step 3: pip install -r requirements.txt
+Step 3: pip install pipwin
+Step 4: pipwin install gdal
+Step 5: pipwin install Fiona
+Step 6: pip install geopandas
+Step 7: pip install pandas
+Step 8: pip install matplotlib
 
-
+Then run python file using python map.py
 Note: If your OS do not have 'venv' module then simply install it by using
 pip install venv
